@@ -6,7 +6,7 @@ const Home: NextPage = () => {
     <>
       <main>
         <Link href="/studio">
-          <a>Go to Studio</a>
+          <a>Go to Studio!</a>
         </Link>
       </main>
     </>
