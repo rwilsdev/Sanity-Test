@@ -8,6 +8,7 @@ import course from './course';
 import lesson from './lesson';
 import author from './author';
 import category from './category';
+import video from './video';
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -21,5 +22,6 @@ export default createSchema({
     lesson,
     author,
     category,
+    video,
   ]),
 });

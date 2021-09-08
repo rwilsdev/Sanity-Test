@@ -20,6 +20,12 @@ export default {
       },
     },
     {
+      name: 'video',
+      title: 'Video',
+      type: 'reference',
+      to: { type: 'video' },
+    },
+    {
       name: 'body',
       title: 'Body',
       type: 'array',
