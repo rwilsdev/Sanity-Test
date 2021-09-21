@@ -4,11 +4,14 @@ import createSchema from 'part:@sanity/base/schema-creator';
 // Then import schema types from any plugins that might expose them
 import schemaTypes from 'all:part:@sanity/base/schema-type';
 
-import course from './course';
-import lesson from './lesson';
-import author from './author';
-import category from './category';
-import video from './video';
+import course from './documents/course';
+import lesson from './documents/lesson';
+import author from './documents/author';
+import category from './documents/category';
+import video from './documents/video';
+import quiz from './documents/quiz';
+import choice from './objects/choice';
+import question from './objects/question';
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -23,5 +26,8 @@ export default createSchema({
     author,
     category,
     video,
+    question,
+    choice,
+    quiz,
   ]),
 });
